@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> -->
+</head>
+<style>  
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    nav {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 43px;
+        background-color: #313131;
+        opacity: 1;
+    }
+    nav ul {
+        list-style: none;
+        justify-content: center;
+        }
+
+        nav ul li {
+        float: left;
+        align-items: center;
+        justify-content: space-around;
+        margin-right: 21px;
+        margin-left: 21px;
+        font-size: 14px;
+        font-weight: lighter;
+        cursor: pointer;
+        }
+
+        nav ul li a {
+        display: block;
+        text-decoration: none;
+        align-items: center;
+        justify-content: center;
+        color: #b6b6b6;
+        transform: translate(0, 2px);
+        }
+
+        nav ul li a:hover{
+            color: white;
+        }
+
+        .hero {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 180px;
+        text-align: center;
+        }
+
+        .hero h1 {
+        font-size: 60px;
+        text-align: center;
+        font-weight: 600;
+        }
+
+        .hero button {
+        width: 95px;
+        height: 55px;
+        font-size: 18px;
+        background-color: #0071e3;
+        color: #fff;
+        border: none;
+        border-radius: 32px;
+        margin-top: 40px;
+        transition: 0.3s;
+        cursor: pointer;
+        }
+        .hero button:hover{
+            background-color: #033a71;
+        }
+
+
+</style>
+<body>
+    <nav>
+        <ul>
+
+            <li> <a href="/">Home</a> </li>
+            <li> <a href="login">Login</a> </li>
+            <li> <a href="register">Register</a> </li>
+  
+        </ul>
+    </nav>
+
+    <div class="hero">
+        <h1>UTY HEBAT<br>for everyone.</h1><br><p>#Chakssss</p>
+        <a href="/register"><button>Daftar</button></a>
+    </div>
+</body>
+</html>
